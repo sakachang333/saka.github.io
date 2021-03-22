@@ -67,6 +67,7 @@ h2{
 
 .works_item{
     margin-top: 5rem;
+    
     position: relative;
     
     width: 100vw;
@@ -92,7 +93,7 @@ h2{
 
 .works_image>img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .works_text{
