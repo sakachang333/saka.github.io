@@ -145,3 +145,8 @@ h3 {
     transform: rotate(35deg);
     transform-origin: left top;
 }
+
+.lightbox {
+    position: fixed !important;
+    top: 5% !important;
+}
