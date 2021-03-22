@@ -148,5 +148,6 @@ h3 {
 
 .lightbox {
     position: fixed !important;
-    top: 5% !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
 }
