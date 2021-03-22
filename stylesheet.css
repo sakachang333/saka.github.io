@@ -28,7 +28,13 @@ span {
 
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.top_image > img {
+    height: 100%;
+
 }
 
 .top_text {
