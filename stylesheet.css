@@ -79,8 +79,8 @@ h2{
     position: relative;
     display: flex;
     justify-content: center;
-    width: 50vw;
-    height: 70vh;
+    width: 60vw;
+    height: 60vh;
     min-width: 500px;
     overflow: hidden;
     object-fit: cover;
