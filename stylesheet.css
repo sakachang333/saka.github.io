@@ -36,14 +36,14 @@ span{
 }
 
 h1{
-    margin-top: 10px;
+    margin-top: 20px;
     
     display: inline-block;
     
     width: 100vw;
     
     font-size: 2.5rem;
-    line-height: 70px;
+    line-height: 3rem;
 }
 
 .top_text_item2{
@@ -90,6 +90,10 @@ h2{
     min-height: 450px;
 }
 
+.works_img>img{
+    width: 100%;
+}
+
 .works_text{
     display: flex;
     flex-wrap: wrap;
@@ -109,4 +113,30 @@ h3{
 .works_text_item2{
     display: inline-block;
     width:420px;
+}
+
+#page-top {
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: rotate(90deg);
+    font-size: 90%;
+    line-height: 2rem;
+    color: black;
+    padding: 0 0 0 40px;
+    border-top: solid 2px;
+}
+#page-top::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 15px;
+    border-top: solid 2px;
+    transform: rotate(35deg);
+    transform-origin: left top;
 }
