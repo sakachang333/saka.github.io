@@ -2,8 +2,21 @@ body{
     width: 100%;
     overflow-x: hidden;
     background: white;
-    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic';
+    font-family: 'Avenir', 'ヒラギノ角ゴシック', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic';
     
+}
+
+h1,h2,h3,p{
+    text-align: center;
+}
+
+p{
+    line-height: 40px;
+    letter-spacing: 0.1em;
+}
+
+span{
+    display: inline-block;
 }
 
 .top_image{
@@ -12,24 +25,7 @@ body{
     height: 35rem;
     
     display: flex;
-    justify-content: center;
-    
-    object-fit: cover;
-    
-    overflow: hidden;
-}
-
-
-h1,h2,h3,p{
-    text-align: center;
-}
-
-p{
-    line-height: 40px;
-}
-
-span{
-    display: inline-block;
+    justify-content: center;    
 }
 
 .top_text{
@@ -41,31 +37,38 @@ span{
 
 h1{
     margin-top: 10px;
+    
     display: inline-block;
+    
     width: 100vw;
+    
     font-size: 2.5rem;
     line-height: 70px;
 }
 
 .top_text_item2{
-    width: 450px;
     display: inline-block;
-    line-height: 40px;
-    font-size: 1rem;
+    
+    width: 450px;
+    
     margin-bottom: 50px;
 }
 
 h2{
-    margin-top: 15px;
+    margin-top: 2rem;
+    
     font-size: 4.5rem;
     border-bottom: solid 10px black; 
     line-height: 40px;
-    margin-bottom: 15px;
+    
+    margin-bottom: 2rem;
 }
 
 .works_item{
     margin-top: 5rem;
     position: relative;
+    
+    width: 100vw;
     
     display: flex;
     flex-wrap: wrap;
@@ -80,33 +83,30 @@ h2{
     
     display: flex;
     justify-content: center;
-    align-items: center;
     
     height: 70vh;
-    width: 50vh;
-    min-width: 40rem;
-    
-    overflow: hidden;
-    object-fit: cover;
+    width: 50vw;
+    min-width: 450px;
+    min-height: 450px;
 }
 
 .works_text{
-    width: 500px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    width: 500px;
 }
 
 h3{
     display: inline-block;
     margin-top: 20px;
     font-size: 2.5rem;
+    letter-spacing: 0.1em;
     border-bottom: solid 5px;
     margin-bottom: 20px;
 }
 
 .works_text_item2{
-    width:370px;
-    display:inline-block;
+    display: inline-block;
+    width:420px;
 }
