@@ -14,6 +14,8 @@ body{
     display: flex;
     justify-content: center;
     
+    object-fit: contain;
+    
     overflow: hidden;
 }
 
@@ -81,6 +83,7 @@ h2{
     height: 70vh;
     min-width: 500px;
     overflow: hidden;
+    object-fit: contain;
 }
 
 .works_text{
