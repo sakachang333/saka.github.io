@@ -166,55 +166,51 @@ h3 {
 
     /*　画面サイズが480pxからはここを読み込む　*/
     p {
-        font-size: 2em;
-        line-height: 80px;
+        font-size: 0.9em;
+        line-height: 2em;
     }
 
     .works_text {
-        width: 800px;
+        width: 450px;
         margin-top: 15px;
     }
 
     .works_text_item2 {
-        width: 750px;
+        width: 320px;
     }
 
     h1 {
-        font-size: 4.5em;
+        font-size: 2.5em;
         margin-top: 50px;
         margin-bottom: 20px;
     }
 
     .top_text_item2 {
-        width: 850px;
+        width: 600px;
     }
 
     h3 {
-        font-size: 4.5em;
-        line-height: 6em;
+        font-size: 2em;
         border-bottom: sorid 7px;
-
     }
 
     h2 {
-        font-size: 6em;
-        padding-bottom: 5px;
-        border-bottom: solid 13px;
+        font-size: 3.5em;
+        line-height: 65%;
+        border-bottom: solid 8px;
     }
 
     #page-top {
-        font-size: 320%;
-        line-height: 5rem;
-        bottom: 130px;
-        right: 45px;
-        border-top: solid 0.25rem;
+        font-size: 140%;
+        bottom: 50px;
+        right: 25px;
+        border-top: solid 0.2rem;
     }
 
     #page-top::before {
-        border-top: solid 0.25rem;
-        top: -2px;
+        border-top: solid 0.2rem;
         left: 0px;
-        width: 25px;
+        width: 20px;
 
     }
 
