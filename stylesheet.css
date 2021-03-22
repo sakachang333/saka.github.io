@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
     background: white;
     font-family: 'Avenir', 'ヒラギノ角ゴシック', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic';
@@ -25,7 +25,8 @@ span{
     height: 35rem;
     
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    overflow-x: hidden;
 }
 
 .top_text{
