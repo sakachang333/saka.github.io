@@ -93,7 +93,7 @@ h2 {
     max-height: 700px;
 }
 
-.works_image > img {
+.works_image > a > img {
     width: 100%;
     height: 100%;
 }
@@ -117,26 +117,6 @@ h3 {
 .works_text_item2 {
     display: inline-block;
     width: 420px;
-}
-
-.modal {
-    height: 100vh;
-}
-
-.modal-content {
-    width: 50vw;
-    height: auto;
-}
-
-.modal-dialog {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.modal-body > img {
-    width: 100%;
-    height: 100%;
 }
 
 #page-top {
