@@ -119,6 +119,36 @@ h3 {
     width: 420px;
 }
 
+#page-top {
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: rotate(90deg);
+    font-size: 150%;
+    line-height: 2rem;
+    color: #737373;
+    padding: 0 0 0 30px;
+    border-top: solid 4px;
+}
+
+#page-top:hover {
+    color: black;
+}
+
+#page-top::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -3.5px;
+    left: 2px;
+    width: 20px;
+    border-top: solid 4px;
+    transform: rotate(35deg);
+    transform-origin: left top;
+}
 
 .lightbox {
     position: fixed !important;
@@ -134,54 +164,54 @@ h3 {
         line-height: 80px;
     }
 
-    .works_text{
+    .works_text {
         width: 800px;
         margin-top: 15px;
     }
-    
-    .works_text_item2{
+
+    .works_text_item2 {
         width: 750px;
     }
-    
-    h1{
+
+    h1 {
         font-size: 4.5em;
         margin-top: 50px;
         margin-bottom: 20px;
     }
-    
-    .top_text_item2{
+
+    .top_text_item2 {
         width: 850px;
     }
-    
-    h3{
+
+    h3 {
         font-size: 4.5em;
         line-height: 6em;
         border-bottom: sorid 7px;
-        
+
     }
-    
-    h2{
+
+    h2 {
         font-size: 6em;
         padding-bottom: 5px;
         border-bottom: solid 13px;
     }
-    
-    #page-top{
+
+    #page-top {
         font-size: 320%;
         line-height: 5rem;
         bottom: 130px;
         right: 45px;
         border-top: solid 0.25rem;
     }
-    
-    #page-top::before{
+
+    #page-top::before {
         border-top: solid 0.25rem;
         top: -2px;
         left: 0px;
         width: 25px;
-        
+
     }
-    
+
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
